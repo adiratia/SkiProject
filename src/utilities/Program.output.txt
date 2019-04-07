@@ -1,0 +1,20 @@
+--------------- Exception example 1 ---------------
+java.lang.IllegalArgumentException: Invalid competitor Skier sk3
+	at game.competition.Competition.addCompetitor(Competition.java:36)
+	at utilities.Program.main(Program.java:39)
+--------------- Exception example 2 ---------------
+java.lang.IllegalArgumentException: Invalid competitor Snowboarder jon
+	at game.competition.Competition.addCompetitor(Competition.java:36)
+	at utilities.Program.main(Program.java:46)
+--------------- Exception example 3 ---------------
+java.lang.IllegalStateException: WinterArena is full max = 3
+	at game.competition.Competition.addCompetitor(Competition.java:29)
+	at utilities.Program.main(Program.java:54)
+--------------- COMPETE ---------------
+race finished in 30 steps
+Race results:
+1. Skier sk4
+2. Skier sk1
+3. Skier sk2
+
+Process finished with exit code 0
